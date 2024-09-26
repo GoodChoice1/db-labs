@@ -84,7 +84,7 @@ async function runServer() {
         }
 
 
-        return res.send({result, loyaltyList});
+        return res.send(result);
     });
 
     app.listen(port, () => {
